@@ -1,0 +1,6 @@
+*.mov
+/models
+/MOSI
+/preprocessed_data
+__pycache__
+CMU-MultimodalSDK

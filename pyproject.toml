@@ -1,0 +1,27 @@
+[project]
+name = "projet-multi-20251201"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "faster-whisper>=1.2.1",
+    "iprogress>=0.4",
+    "ipykernel>=7.1.0",
+    "ipywidgets>=8.1.8",
+    "kagglehub>=0.3.13",
+    "librosa>=0.11.0",
+    "matplotlib>=3.10.7",
+    "mmsdk",
+    "numpy>=2.2.6",
+    "openai-whisper>=20250625",
+    "opencv-python-headless>=4.12.0.88",
+    "pandas>=2.3.3",
+    "pygame>=2.6.1",
+    "sounddevice>=0.5.3",
+    "torch>=2.9.1",
+    "transformers>=4.57.3",
+]
+
+[tool.uv.sources]
+mmsdk = { path = "CMU-MultimodalSDK" }
